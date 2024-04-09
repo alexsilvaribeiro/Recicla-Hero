@@ -1,0 +1,66 @@
+<!-- recuperar a senha-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar a Senha</title>
+    <link rel="stylesheet" href="/Projeto_Integrador_Proz/Sprint_4_javascript/css/style.css">
+    <script src="/Projeto_Integrador_Proz/Sprint_4_javascript/js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="nav_principal">
+            <div class="logo_cabeçalho">
+                <a href="index.html"><img class="logo" src="/Projeto_Integrador_Proz/Sprint_4_javascript/img/logo_Recicla_Hero/png/logo4.png" width="140px" alt="Logo Recicla Hero"></a>
+            </div>
+            <div class="botoes_cabeçalho">
+                <button id="botao_login"><a href="login.html">Entrar</a></button>
+                <button id="botao_cadastro"><a href="cadastro_escolha.html">Cadastre-se</a></button>
+                <!-- botão para direcionar pagina PROVISÓRIO -->
+                <button id="botao_login"><a href="./adicionar_material_reciclavel.html">Doar RECICLADO</a></button>
+            </div>
+        </nav>
+        <nav class="nav_cabeçalho">
+            <div class="mobile_menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav_list">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="como_descartar.html">Como descartar?</a></li>
+                <li><a href="locais_de_entrega.html">Pontos de Entrega</a></li>
+                <li><a href="sobre_o_projeto.html">Sobre o Projeto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="conteudo_principal">
+            <div style="text-align:center">
+                <h1>Recuperar senha</h1>
+                <div>
+                    <form>
+                        <label>Digite seu email:</label>
+                        <input type="email" placeholder="seu email" name="email" required>
+                        <span id="msg_email"></span>
+                    </form>
+                        <input type="submit" value="Enviar" width="20" height="40">
+                        <script>
+                            <alert >Email enviado!</alert>
+                        </script>
+                    <div>   
+                        <a href="pag_05_01_login.html">Voltar à tela de login</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <nav class="nav_rodape">
+            <a href="index.html"><img class="logo" src="/Projeto_Integrador_Proz/Sprint_4_javascript/img/logo_Recicla_Hero/png/logo3.png" width="100px" alt="Logo Recicla Hero"></a>
+            <h6 class="nav_h6">Recicla Hero. &copy; Todos os direitos reservados.</h6>
+        </nav>
+    </footer>
+</body>
+</html>
